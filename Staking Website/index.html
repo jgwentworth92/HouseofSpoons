@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.5.3/ethers.umd.min.js" integrity="sha512-DGSIUFeBFmS0D++IURtKLQf2bjsw7VNvtEm5jg4uxwM/EFB1sfbROoG21dy1PR13NXx0oT64KkcIv1HC/MFl2Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="staking.css" />
+    <link rel="stylesheet" type="text/css" href="modal.css" />
+    <script src="staking.js"></script>
+    <title>Staking</title>
+</head>
+
+<body>
+    <div id="content" class="hidden">
+        <div id="stakeble" class="scrollableContent">
+            <div id="stakableSlider" class="bstimeslider">
+                <div class="viewContainer">
+                    <div id="showStakable" class="tslshow">
+                    </div>
+                </div>
+                <button class="arrows leftArrow">&lt</button>
+                <button class="arrows rightArrow">&gt</button>
+            </div>
+            <button id="stakeBtn" class="contentBtn">Stake</button>
+        </div>
+        <div id="staked" class="scrollableContent">
+            <div id="stakedSlider" class="bstimeslider">
+                <div class="viewContainer">
+                    <div id="showStaked" class="tslshow">
+                    </div>
+                </div>
+                <button class="arrows leftArrow">&lt</button>
+                <button class="arrows rightArrow">&gt</button>
+            </div>
+            <button id="unstakeBtn" class="contentBtn">Unstake</button>
+        </div>
+        <div id="claimContent">
+            <div id="claimAmmount">0 eth to claim!</div>
+            <button id="claimBtn" class="contentBtn" disabled>Claim</button>
+        </div>
+    </div>
+    <button id="checkWalletConnection" class="contentBtn">Connect wallet</button>
+    <button id="approveBtn" class="contentBtn hidden">Unlock NFTs for staking</button>
+</body>

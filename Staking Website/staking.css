@@ -1,0 +1,138 @@
+body {
+    background-color: #0B0E18;
+}
+
+.scrollableContent {
+    width: 500px;
+    margin: 5px;
+}
+
+.bstimeslider {
+    width: 500px;
+    height: 100px;
+    position: relative;
+}
+
+.arrows {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    width: 40px;
+    height: 100px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: white;
+    /* Green */
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.arrows:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bktibx {
+    float: left;
+    margin: 0 25px 0 0;
+    width: 100px;
+    height: 100%;
+    display: block;
+    background: #000;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    /* remove extra space below image */
+}
+
+.tslshow {
+    position: absolute;
+    display: flex;
+    left: 0;
+    height: 100%;
+}
+
+.leftArrow {
+    left: 0px;
+}
+
+.rightArrow {
+    right: 0px;
+}
+
+.viewContainer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+#showStakable>.staked {
+    outline: 3px solid black;
+    outline-offset: -4px;
+}
+
+#showStaked>.unstaked {
+    outline: 3px solid black;
+    outline-offset: -4px;
+}
+
+.contentBtn {
+    margin-top: 10px;
+    width: 50%;
+    height: 40px;
+    font-size: 1vw;
+    background-image: linear-gradient(to right, #4579F9, #4C47F3);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+    color: #fff;
+}
+
+#claimContent {
+    width: 500px;
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2e3a63;
+}
+
+#claimAmmount {
+    color: white;
+    font-size: 1vw;
+}
+
+.hidden {
+    display: none;
+}
+
+#content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#checkWalletConnection,
+#approveBtn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
