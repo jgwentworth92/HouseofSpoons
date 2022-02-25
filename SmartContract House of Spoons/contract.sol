@@ -5,8 +5,6 @@ pragma solidity ^0.8.4;
 
 
 /**
-
-
   _    _                               __    _____                             
  | |  | |                             / _|  / ____|                            
  | |__| | ___  _   _ ___  ___    ___ | |_  | (___  _ __   ___   ___  _ __  ___ 
@@ -15,8 +13,6 @@ pragma solidity ^0.8.4;
  |_|  |_|\___/ \__,_|___/\___|  \___/|_|   |_____/| .__/ \___/ \___/|_| |_|___/
                                                   | |                          
                                                   |_|                          
-
-
 */
 import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
 import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
