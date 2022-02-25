@@ -23,4 +23,4 @@ console.log('Running at\nhttp://localhost:3300');
 
 step 4: 
 - [x] open cmd and navigate to the staking folder
-- [x] run the command node server.js to start the server and test the website functionalities
+- [x] run the command ```node server.js``` to start the server and test the website functionalities
