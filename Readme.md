@@ -6,7 +6,7 @@ I recommend Express node.js web application framework HTTP server[^1].
 
 [^1]: You can also you your own local server but to run it quickly you can use the provided server .js.
 
-how to install:
+##How to install
 
 step 1: run the command ```npm install express -- save``` inside [Staking Website](https://github.com/KaranConcave/HouseofSpoons/tree/main/Staking%20Website)
 
