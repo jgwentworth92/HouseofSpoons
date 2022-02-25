@@ -25,5 +25,4 @@ step 4:
 - [x] open cmd and navigate to the staking folder
 - [x] run the command ```node server.js``` to start the server and test the website functionalities
 
-###### step 5:
-This step is optional but if you want to test all the functionalities of the website you need to request a NFT from me. To request a NFT you can send me a dm on discord Karan#8060.
+###### step 5: This step is optional but if you want to test all the functionalities of the website you need to request a NFT from me. To request a NFT you can send me a dm on discord Karan#8060.
