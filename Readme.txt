@@ -4,7 +4,7 @@ I recommend Express node.js web application framework HTTP server.
 
 how to install:
 
-step 1: run the command (npm install express -- save) inside @Staking Website
+step 1: run the command (npm install express -- save) inside @title Staking Website
 step 2: create a file in the staking website folder called server.js 
 step 3: paste the following code inside the server.js:  
 var express = require('express');
