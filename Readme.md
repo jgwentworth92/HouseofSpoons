@@ -8,7 +8,7 @@ I recommend Express node.js web application framework HTTP server[^1].
 
 how to install:
 
-step 1: run the command (npm install express -- save) inside [Staking Website](https://github.com/KaranConcave/HouseofSpoons/tree/main/Staking%20Website)
+step 1: run the command ```npm install express -- save``` inside [Staking Website](https://github.com/KaranConcave/HouseofSpoons/tree/main/Staking%20Website)
 
 step 2: create a file in the staking website folder called [server.js](https://github.com/KaranConcave/HouseofSpoons/blob/main/Staking%20Website/server.js) 
 
