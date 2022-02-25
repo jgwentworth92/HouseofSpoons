@@ -12,7 +12,7 @@ step 1: run the command ```npm install express -- save``` inside [Staking Websit
 
 step 2: create a file in the staking website folder called [server.js](https://github.com/KaranConcave/HouseofSpoons/blob/main/Staking%20Website/server.js) 
 
-step 3: paste the following code inside the server.js:
+step 3: paste the following code inside the [server.js](https://github.com/KaranConcave/HouseofSpoons/blob/main/Staking%20Website/server.js):
 ```
 var express = require('express');
 var app = express();
