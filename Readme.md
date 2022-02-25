@@ -2,7 +2,9 @@
 
 For anyone that wants to test the functionality of the website, you will need to run the website on an local server.
 
-I recommend Express node.js web application framework HTTP server.
+I recommend Express node.js web application framework HTTP server[^1].
+
+[^1]: You can also you your own local server.
 
 how to install:
 
