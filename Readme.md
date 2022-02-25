@@ -4,7 +4,7 @@ For anyone that wants to test the functionality of the website, you will need to
 
 I recommend Express node.js web application framework HTTP server[^1].
 
-[^1]: You can also you your own local server.
+[^1]: You can also you your own local server but to run it quickly you can use the provided server .js.
 
 how to install:
 
